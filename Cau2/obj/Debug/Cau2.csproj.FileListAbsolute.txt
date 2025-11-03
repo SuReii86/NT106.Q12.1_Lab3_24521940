@@ -1,0 +1,11 @@
+C:\Users\Lenovo\source\repos\NT106_LAB3_24521940\Cau2\bin\Debug\Cau2.exe.config
+C:\Users\Lenovo\source\repos\NT106_LAB3_24521940\Cau2\bin\Debug\Cau2.exe
+C:\Users\Lenovo\source\repos\NT106_LAB3_24521940\Cau2\bin\Debug\Cau2.pdb
+C:\Users\Lenovo\source\repos\NT106_LAB3_24521940\Cau2\obj\Debug\Cau2.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\NT106_LAB3_24521940\Cau2\obj\Debug\Cau2.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\NT106_LAB3_24521940\Cau2\obj\Debug\Cau2.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\NT106_LAB3_24521940\Cau2\obj\Debug\Cau2.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\NT106_LAB3_24521940\Cau2\obj\Debug\Cau2.exe
+C:\Users\Lenovo\source\repos\NT106_LAB3_24521940\Cau2\obj\Debug\Cau2.pdb
+C:\Users\Lenovo\source\repos\NT106_LAB3_24521940\Cau2\obj\Debug\Cau2.exe.config
+C:\Users\Lenovo\source\repos\NT106_LAB3_24521940\Cau2\obj\Debug\Cau2.Server.resources
