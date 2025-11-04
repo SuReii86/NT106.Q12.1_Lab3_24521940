@@ -162,17 +162,16 @@ namespace Cau6
             serverThread.Start();
 
             btn_listen.Enabled = false;
-            // btn_stop.Enabled = true; // Bật nút stop
+
         }
 
-        // === THÊM HÀM XỬ LÝ CHO NÚT STOP ===
+
         private void btn_stop_Click(object sender, EventArgs e)
         {
             if (isRunning)
             {
                 isRunning = false;
 
-                // Đóng tất cả các kết nối client
                 lock (lockObj)
                 {
                     foreach (Socket client in clientSockets)
@@ -183,15 +182,13 @@ namespace Cau6
                     clientSockets.Clear();
                 }
 
-                // Đóng socket lắng nghe chính để thoát khỏi vòng lặp Accept()
                 listenerSocket?.Close();
 
                 btn_listen.Enabled = true;
-                // btn_stop.Enabled = false;
+ 
             }
         }
 
-        // Đảm bảo server tắt hẳn khi đóng form
         private void Server_FormClosing(object sender, FormClosingEventArgs e)
         {
             btn_stop_Click(null, null);
