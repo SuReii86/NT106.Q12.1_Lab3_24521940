@@ -173,7 +173,21 @@ namespace Cau4
         {
             Disconnect();
         }
+        private void cbb_Movies_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cbb_Rooms.Items.Clear();
 
+            Movie movie = movies[cbb_Movies.SelectedIndex];
+            Console.WriteLine(cbb_Movies.SelectedIndex);
+            foreach (int x in movie.Rooms)
+            {
+                cbb_Rooms.Items.Add(x.ToString());
+            }
+            if (cbb_Rooms.Items.Count > 0)
+            {
+                cbb_Rooms.SelectedIndex = 0;
+            }
+        }
         private void ResetForm()
         {
             tb_NAME.Clear();

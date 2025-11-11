@@ -70,6 +70,7 @@
             this.cbb_Movies.Name = "cbb_Movies";
             this.cbb_Movies.Size = new System.Drawing.Size(258, 35);
             this.cbb_Movies.TabIndex = 0;
+            this.cbb_Movies.SelectedIndexChanged += new System.EventHandler(this.cbb_Movies_SelectedIndexChanged);
             // 
             // cbb_Rooms
             // 
